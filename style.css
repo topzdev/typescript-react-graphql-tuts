@@ -1,0 +1,19 @@
+body {
+  color: #000;
+}
+
+.hello {
+  color: #000;
+}
+
+.card {
+  height: 500px;
+}
+
+.card__body {
+  background: red;
+}
+
+.card__footer {
+  color: pink;
+}

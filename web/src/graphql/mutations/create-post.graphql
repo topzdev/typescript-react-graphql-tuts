@@ -1,0 +1,11 @@
+mutation CreatePost($postInput: PostInput!) {
+  createPost(postInput: $postInput) {
+    id
+    createdAt
+    updatedAt
+    title
+    text
+    points
+    creatorId
+  }
+}

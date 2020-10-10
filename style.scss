@@ -1,0 +1,21 @@
+$primary-color: #000;
+
+body {
+  color: $primary-color;
+}
+
+.hello {
+  color: $primary-color;
+}
+
+.card {
+  height: 500px;
+
+  &__body {
+    background: red;
+  }
+
+  &__footer {
+    color: pink;
+  }
+}
